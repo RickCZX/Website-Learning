@@ -1,0 +1,57 @@
+<!-- knives.html -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>厨房刀具 - KitchenSimple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">KitchenSimple</h1>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="knives.html" class="active">厨房刀具</a>
+                <a href="pots.html">锅具系列</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="page-hero">
+            <h2>专业厨房刀具系列</h2>
+            <p>精选高品质钢材，匠人工艺打造</p>
+        </section>
+
+        <div class="product-grid">
+            <div class="product-card" 
+                 data-title="主厨刀"
+                 data-price="899" 
+                 data-desc="20cm专业主厨刀，VG-10核心钢，三层复合结构">
+                <div class="image-placeholder"></div>
+                <h3>主厨刀</h3>
+                <p class="price">¥899</p>
+            </div>
+
+            <div class="product-card"
+                 data-title="面包刀"
+                 data-price="699"
+                 data-desc="25cm锯齿刃面包刀，食品级树脂手柄">
+                <div class="image-placeholder"></div>
+                <h3>面包刀</h3>
+                <p class="price">¥699</p>
+            </div>
+            <!-- 更多商品... -->
+        </div>
+    </main>
+
+    <!-- 模态框结构 -->
+    <div class="modal-overlay">
+        <div class="modal-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
